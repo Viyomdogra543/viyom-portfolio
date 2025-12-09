@@ -1,1 +1,2 @@
-# viyom-portfolio
+Viyom Dogra Portfolio
+Personal portfolio website with all sections, theme toggle, project previews, and resume download. Instructions: 1. Rename repository to Viyomdogra543.github.io 2. Upload all files maintaining the folder structure. 3. Enable GitHub Pages from repository settings (main branch). 4. Live site: https://Viyomdogra543.github.io
