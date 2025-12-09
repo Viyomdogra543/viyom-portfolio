@@ -1,0 +1,12 @@
+const lightBtn=document.getElementById('lightBtn');
+const darkBtn=document.getElementById('darkBtn');
+const batmanBtn=document.getElementById('batmanBtn');
+const spidermanBtn=document.getElementById('spidermanBtn');
+lightBtn.addEventListener('click',()=>document.body.className='light-theme');
+darkBtn.addEventListener('click',()=>document.body.className='dark-theme');
+batmanBtn.addEventListener('click',()=>document.body.className='batman-theme');
+spidermanBtn.addEventListener('click',()=>document.body.className='spiderman-theme');
+const skills=document.querySelectorAll('.skill-progress');
+window.addEventListener('scroll',()=>{const triggerBottom=window.innerHeight/5*4;
+skills.forEach(skill=>{const skillTop=skill.getBoundingClientRect().top;
+if(skillTop<triggerBottom){skill.style.width=skill.style.width;}});});
